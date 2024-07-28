@@ -1,0 +1,16 @@
+- Install IntelliJ IDEA Community IDE  Version 2018.3.6.
+- Install OpenJDK 11 and complete the configuration.
+- Install a Browser Driver(Chrome Driver).
+- Setup a Selenium project with the name `ClickCounterTest`.
+- Create a driver instance using WebDriver interface.
+- Navigate to the url `https://qaclickcounter.ccbp.tech/`
+- Find the "Click Me!" button - _use contains() method with text() method_.
+- use the text content as `Click Me!`.
+- Find the `<span>` element whose class attribute value contains `counter`- _use contains() method_.
+- Repeat the following steps for **100** iterations(_use a for loop_),
+    - Click the "Click Me!" button.
+    - Get the text from the `<span>` element.
+    - verify whether the text matches with the iteration count. 
+        - if the text does not match, print "Mismatch in count" and break the loop.
+- Print "Click Counter App: Working as expected", if all the 100 iterations are successfully executed.
+- Close the browser window.
